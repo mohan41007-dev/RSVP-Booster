@@ -11,3 +11,4 @@ __pycache__/
 
 # 🎯 ALLOW EXCEPTION: Only track the GTM playbook file
 !gtm_playbook_app.py
+!rsvp_booster_app.py

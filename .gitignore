@@ -1,0 +1,13 @@
+# 🔐 Exclude private credential environment keys
+.env
+
+# 📦 Exclude local Python environments and cache artifacts
+.venv/
+__pycache__/
+*.pyc
+
+# 🚫 Ignore ALL Python files by default
+*.py
+
+# 🎯 ALLOW EXCEPTION: Only track the GTM playbook file
+!gtm_playbook_app.py
